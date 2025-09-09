@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kartvizit Sayfası</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 20px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+      text-align: center;
+      padding: 30px;
+      width: 300px;
+    }
+
+    .card img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+      border: 4px solid #2575fc;
+    }
+
+    .card h2 {
+      margin: 10px 0 5px;
+      font-size: 22px;
+      color: #333;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    .buttons a {
+      text-decoration: none;
+      display: inline-block;
+      margin: 5px;
+      padding: 10px 15px;
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: bold;
+      color: #fff;
+      transition: 0.3s;
+    }
+
+    .linkedin { background: #0077b5; }
+    .github { background: #333; }
+    
+
+    .buttons a:hover {
+      opacity: 0.8;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="resimler/profil.jpeg" alt="Profil Fotoğrafı">
+    <h2>Esma Nur GÜVENÇ</h2>
+    <p>Ben web geliştirme ile ilgilenen bir öğrenciyim.  
+       Tasarım ve yazılımda kendimi geliştiriyorum.</p>
+    <div class="buttons">
+      <a href="https://www.linkedin.com/in/esmanur-g%C3%BCven%C3%A7/" class="linkedin" target="_blank">LinkedIn</a>
+      <a href="https://github.com/esmanur04" class="github" target="_blank">GitHub</a>
+      
+    </div>
+  </div>
+</body>
+</html>
