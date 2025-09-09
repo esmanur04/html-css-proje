@@ -1,29 +1,52 @@
-Proje Hakkında
-Bu sayfa, Esma Nur Güvenç'in kişisel bilgilerini, ilgi alanlarını ve sosyal medya bağlantılarını (LinkedIn ve GitHub) sergilemek amacıyla tasarlanmıştır.
-Proje, web geliştirme alanında bir öğrenci tarafından yapılmıştır.
+# 📇 HTML-CSS Kartvizit Projesi
 
-Teknolojiler
-HTML: Sayfa yapısını oluşturmak için kullanılmıştır.
+Bu proje, HTML ve CSS kullanılarak hazırlanmış basit bir **kartvizit (kişisel tanıtım sayfası)** örneğidir.  
+Kişisel bilgiler, ilgi alanları ve sosyal medya bağlantılarını içerir.  
 
-CSS: Sayfanın görsel tasarımını ve stilini sağlamak için kullanılmıştır.
+---
 
-Kurulum ve Çalıştırma
-Bu projeyi yerel bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyin:
+## 🚀 Nasıl Çalıştırılır?
 
-Depoyu Klonlayın:
-Öncelikle, projeyi GitHub'dan bilgisayarınıza klonlayın.
+1. Bu projeyi bilgisayarına klonla:
+   ```bash
+   git clone https://github.com/esmanur04/html-css-proje.git
+   cd html-css-proje
+Proje klasöründe kartvizit.html dosyasını bul.
 
-Bash
-git clone https://github.com/esmanur04/html-css-proje.git
-Dosyalara Erişin:
-Klonladığınız klasöre gidin.
+Tarayıcıda açmak için:
 
-Bash
-cd html-css-proje
-Tarayıcıda Açın:
-kartvizit.html dosyasını favori web tarayıcınızda (Chrome, Firefox, Edge vb.) açın. Dosyaya çift tıklamanız veya tarayıcınızın adres çubuğuna dosya yolunu sürüklemeniz yeterlidir.
+Windows:
 
-Dosya Yapısı
-kartvizit.html: Kartvizit sayfasının ana HTML kodunu içerir.
+powershell
+Kodu kopyala
+start kartvizit.html
+Mac:
 
-resimler/profil.jpeg: Sayfada kullanılan profil fotoğrafıdır.
+bash
+Kodu kopyala
+open kartvizit.html
+Linux:
+
+bash
+Kodu kopyala
+xdg-open kartvizit.html
+Alternatif olarak dosyayı çift tıklayarak da açabilirsin.
+
+📂 Proje Yapısı
+plaintext
+Kodu kopyala
+html-css-proje/
+│
+├── kartvizit.html      # Ana HTML dosyası
+├── stil.css            # CSS stilleri
+└── resimler/           # Görseller
+    └── profil.jpeg     # Profil resmi
+🛠 Kullanılan Teknolojiler
+HTML5 → Sayfa yapısı
+
+CSS3 → Stil ve tasarım
+
+🎯 Görünüm
+Bu proje örnek bir kişisel kartvizit sayfasıdır. İstediğin gibi özelleştirip
+kendi bilgilerin ve renk paletine göre düzenleyebilirsin.
+
